@@ -9,7 +9,7 @@ void hello_world() {
 
 void name_on_screen() {
     std::string name;
-    std::cout << "What is your name? s" << std::flush;
+    std::cout << "What is your name? " << std::flush;
     std::cin >> name;
     std::cout << "Nice to meet you " << name << std::endl;
 }
